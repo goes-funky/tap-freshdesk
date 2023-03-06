@@ -11,7 +11,7 @@ setup(name='tap-freshdesk',
       py_modules=['tap_freshdesk'],
       install_requires=[
           'singer-python==5.9.0',
-          'requests==2.23.0',
+          'requests==2.26.0',
           'backoff==1.8.0'
       ],
       entry_points='''
